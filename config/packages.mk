@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
 	
 # SoftUI packages
 PRODUCT_PACKAGES += \
-    GoogleKoreanKeyboard \
-	OTAupdate \
+   GoogleKoreanKeyboard \
+   OTAupdate \
 
 # Additional tools
 PRODUCT_PACKAGES += \
