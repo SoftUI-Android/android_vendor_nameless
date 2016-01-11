@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
     PhotoPhase \
     CMSettingsProvider \
     CMResolver \
+	
+# SoftUI packages
+    GoogleKoreanKeyboard \
+	OTAupdate \
 
 # Additional tools
 PRODUCT_PACKAGES += \
