@@ -96,7 +96,17 @@ PRODUCT_COPY_FILES += \
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
     vendor/nameless/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
-
+	
+#Keyboard FIX
+PRODUCT_COPY_FILES += \
+   vendor/nameless/prebuilt/common/lib/liben_data_bundle_preload.so:system/lib/liben_data_bundle_preload.so
+PRODUCT_COPY_FILES += \
+   vendor/nameless/prebuilt/common/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so
+PRODUCT_COPY_FILES += \
+   vendor/nameless/prebuilt/common/lib/libjni_hmm_shared_engine.so:system/lib/libjni_hmm_shared_engine.so
+PRODUCT_COPY_FILES += \
+   vendor/nameless/prebuilt/common/lib/libkorean_data_bundle_preload.so:system/lib/libkorean_data_bundle_preload.so
+   
 # Add apn's
 include vendor/nameless/config/apns.mk
 
