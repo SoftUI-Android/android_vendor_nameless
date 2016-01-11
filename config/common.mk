@@ -3,11 +3,6 @@ PRODUCT_BRAND ?= nameless
 # Versioning
 include vendor/nameless/config/version.mk
 
-# bootanimation
-ifeq ($(PRODUCT_NO_BOOTANIMATION),)
-PRODUCT_BOOTANIMATION := vendor/nameless/prebuilt/bootanimation/bootanimation.zip
-endif
-
 # get device client id base
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
