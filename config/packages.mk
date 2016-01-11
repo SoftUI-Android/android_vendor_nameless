@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     CMResolver \
 	
 # SoftUI packages
+PRODUCT_PACKAGES += \
     GoogleKoreanKeyboard \
 	OTAupdate \
 
