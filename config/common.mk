@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= nameless
+PRODUCT_BRAND ?= SoftUI
 
 # Versioning
 include vendor/nameless/config/version.mk

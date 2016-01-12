@@ -15,7 +15,7 @@ ifndef ROM_BUILDTYPE
 endif
 
 TARGET_PRODUCT_SHORT := $(TARGET_PRODUCT)
-TARGET_PRODUCT_SHORT := $(subst nameless_,,$(TARGET_PRODUCT_SHORT))
+TARGET_PRODUCT_SHORT := $(subst SoftUI_,,$(TARGET_PRODUCT_SHORT))
 
 # Build the final version string
 ifdef BUILDTYPE_RELEASE
@@ -38,7 +38,7 @@ NAMELESS_VERSION := $(ROM_VERSION)
 
 # Apply it to build.prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=NamelessRom-$(ROM_VERSION) \
+    ro.modversion=SoftUI-$(ROM_VERSION) \
     ro.nameless.version=$(ROM_VERSION) \
     ro.nameless.date=$(shell date +"%Y%m%d") \
     ro.nameless.releasetype=$(ROM_BUILDTYPE) \
