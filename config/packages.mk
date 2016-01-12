@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
     CMHome \
     Perception \
 
-# Some live wallpapers
+# Some wallpapers
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     LiveWallpapers \
@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
     PhotoPhase \
     CMSettingsProvider \
     CMResolver \
+	CMWallpapers \
 	
 # SoftUI packages
 PRODUCT_PACKAGES += \
