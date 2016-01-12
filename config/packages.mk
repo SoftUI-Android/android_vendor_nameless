@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
     PhotoPhase \
     CMSettingsProvider \
     CMResolver \
-	CMWallpapers \
+    CMWallpapers \
 	
 # SoftUI packages
 PRODUCT_PACKAGES += \
