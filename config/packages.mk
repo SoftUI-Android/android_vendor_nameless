@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    GoogleKoreanKeyboard \
    OTAupdate \
+   OmniSwitch \
 
 # Additional tools
 PRODUCT_PACKAGES += \
