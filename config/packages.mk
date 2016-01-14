@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
    GoogleKoreanKeyboard \
    OTAupdate \
    OmniSwitch \
+   PerformanceControl \
 
 # Additional tools
 PRODUCT_PACKAGES += \
