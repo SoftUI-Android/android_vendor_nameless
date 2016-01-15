@@ -3,6 +3,7 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     LatinIME \
     Profiles \
+    browser \
 
 # Additional packages
 PRODUCT_PACKAGES += \
